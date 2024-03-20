@@ -11,7 +11,6 @@ export default function AddPackage() {
     const [supplyDetails, setSupplyDetails] = useState('');
     const [orderQuantity, setOrderQuantity] = useState('');
     const [orderDetails, setOrderDetails] = useState('');
-    // const [orderStatus, setOrderStatus] = useState('');
 
     const postData = (e) => {
         e.preventDefault();
@@ -109,36 +108,9 @@ export default function AddPackage() {
                                                     onChange={(e) => setContactDetails(e.target.value)}
                                                 />
                                             </div>
-                                            {/* <div class="">
-                                                <label className='block mb-2 text-lg font-medium text-gray-900 dark:text-white' >
-                                                    Category
-                                                </label>
-                                                <select
-                                                    type="text"
-                                                    required
-                                                    className="form-control"
-                                                    onChange={(e) => setCategory(e.target.value)}
-                                                >
-                                                    <option>Select From Here</option>
-                                                    <option>Breakable Items</option>
-                                                    <option>Electronics</option>
-                                                    <option>Food Items</option>
-                                                    <option>Freezer Items</option>
-                                                    <option>Flowers</option>
-                                                </select>
-                                            </div> */}
                                         </div>
                                         <p />
                                         <div className="grid grid-cols-1 gap-4 form-group">
-                                            {/* <div className="">
-                                                <label className='block mb-2 text-lg font-medium text-gray-900 dark:text-white'>
-                                                    Special Notes
-                                                </label>
-                                                <textarea type="text"
-                                                    className="form-control"
-                                                    onChange={(e) => setSpecialNotes(e.target.value)}
-                                                />
-                                            </div> */}
                                             <div className="form-group">
                                                 <label className='block mb-2 text-lg font-medium text-gray-900 dark:text-white'>
                                                     Supply Details
@@ -151,35 +123,13 @@ export default function AddPackage() {
                                             </div>
                                         </div>
                                         <p />
-                                        {/* <div className="grid grid-cols-2 gap-4 form-group">
-                                            <div class="form-group">
-                                                <label className='block mb-2 text-lg font-medium text-gray-900 dark:text-white' >
-                                                    Accepted Date
-                                                </label>
-                                                <DatePicker
-                                                    viewBox="0 0 20 40"
-                                                    dateFormat="MMMM d, yyyy"
-                                                    selected={new Date()}
-                                                    onChange={handleDate}
-                                                />
-                                            </div>
-                                            <div className="">
-                                                <label for="large-input" className='block mb-2 text-lg font-medium text-gray-900 dark:text-white'>
-                                                    Accepted Time
-                                                </label>
-                                                <input type="time"
-                                                    className="form-control"
-                                                    onChange={(e) => setAcceptedTime(e.target.value)}
-                                                />
-                                            </div>
-                                        </div> */}
                                         <p /><p />
                                         <div className="grid grid-cols-1 gap-4 form-group">
                                             <div className="form-group">
                                                 <label className='block mb-2 text-lg font-medium text-gray-900 dark:text-white'>
                                                     Order Quantity
                                                 </label>
-                                                <input type="text"
+                                                <input type="text" required
                                                     className="form-control"
                                                     onChange={(e) => setOrderQuantity(e.target.value)}
                                                 />
@@ -188,7 +138,7 @@ export default function AddPackage() {
                                                 <label className='block mb-2 text-lg font-medium text-gray-900 dark:text-white' >
                                                     Order details
                                                 </label>
-                                                <input type="text"
+                                                <input type="text" required
                                                     className="form-control"
                                                     onChange={(e) => setOrderDetails(e.target.value)}
                                                 />

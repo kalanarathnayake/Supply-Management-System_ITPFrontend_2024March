@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Swal from "sweetalert2";
-import { useHistory } from 'react-router';
-import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css"
 
 export default function EditPackage() {
@@ -99,7 +97,6 @@ export default function EditPackage() {
                                                     readOnly
                                                     className="form-control"
                                                     value={supplierId}
-                                                // onChange={(e) => setPackageId(e.target.value)}
                                                 />
                                             </div>
                                         </div>
@@ -129,16 +126,13 @@ export default function EditPackage() {
                                             </div>
                                         </div>
                                         <p />
-
-                                        <p />
-                                        {/* <div className='grid grid-cols-1 gap-4 form-group'><p className='text-2xl font-semibold uppercase text-blue'>Customer Details</p></div> */}
-                                        <p />
                                         <div className="grid grid-cols-3 gap-4 form-group">
                                             <div className="form-group">
                                                 <label className='block mb-2 text-lg font-medium text-gray-900 dark:text-white'>
                                                     Order Quantity
                                                 </label>
                                                 <input type="number"
+                                                    required
                                                     className="form-control"
                                                     value={orderQuantity}
                                                     onChange={(e) => setOrderQuantity(e.target.value)}
@@ -181,6 +175,7 @@ export default function EditPackage() {
                                                 Order Details
                                             </label>
                                             <input type="text"
+                                                required
                                                 className="form-control"
                                                 value={orderDetails}
                                                 onChange={(e) => setOrderDetails(e.target.value)}

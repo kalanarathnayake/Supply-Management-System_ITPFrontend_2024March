@@ -88,7 +88,7 @@ export default function EditPackage() {
                                         <p />
                                         <div className="grid grid-cols-1 gap-4 form-group">
                                             <div class="">
-                                                <label className='block mb-2 text-lg font-medium text-gray-900 dark:text-white'>
+                                                <label className='block mb-2 text-lg font-medium text-gray-900 '>
                                                     Supply ID
                                                 </label>
                                                 <input type="text"
@@ -103,7 +103,7 @@ export default function EditPackage() {
                                         <p />
                                         <div className="grid grid-cols-2 gap-4 form-group">
                                             <div className="form-group">
-                                                <label className='block mb-2 text-lg font-medium text-gray-900 dark:text-white'>
+                                                <label className='block mb-2 text-lg font-medium text-gray-900 '>
                                                     Supplier Name
                                                 </label>
                                                 <input type="text"
@@ -114,7 +114,7 @@ export default function EditPackage() {
                                                 />
                                             </div>
                                             <div className="form-group">
-                                                <label className='block mb-2 text-lg font-medium text-gray-900 dark:text-white'>
+                                                <label className='block mb-2 text-lg font-medium text-gray-900 '>
                                                     Contact Details
                                                 </label>
                                                 <input type="number"
@@ -128,7 +128,7 @@ export default function EditPackage() {
                                         <p />
                                         <div className="grid grid-cols-3 gap-4 form-group">
                                             <div className="form-group">
-                                                <label className='block mb-2 text-lg font-medium text-gray-900 dark:text-white'>
+                                                <label className='block mb-2 text-lg font-medium text-gray-900 '>
                                                     Order Quantity
                                                 </label>
                                                 <input type="number"
@@ -140,7 +140,7 @@ export default function EditPackage() {
                                             </div>
 
                                             <div class="">
-                                                <label className='block mb-2 text-lg font-medium text-gray-900 dark:text-white' >
+                                                <label className='block mb-2 text-lg font-medium text-gray-900 ' >
                                                     Order Status
                                                 </label>
                                                 <select
@@ -157,7 +157,7 @@ export default function EditPackage() {
                                                 </select>
                                             </div>
                                             <div className="form-group">
-                                                <label className='block mb-2 text-lg font-medium text-gray-900 dark:text-white'>
+                                                <label className='block mb-2 text-lg font-medium text-gray-900 '>
                                                     Supply Details
                                                 </label>
                                                 <input type="text"
@@ -171,7 +171,7 @@ export default function EditPackage() {
                                         <p />
 
                                         <div class="">
-                                            <label className='block mb-2 text-lg font-medium text-gray-900 dark:text-white' >
+                                            <label className='block mb-2 text-lg font-medium text-gray-900 ' >
                                                 Order Details
                                             </label>
                                             <input type="text"

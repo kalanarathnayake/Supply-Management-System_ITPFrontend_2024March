@@ -75,9 +75,8 @@ export default function AddPackage() {
             });
     };
 
-
     return (
-        <div className="flex flex-col px-5 py-32 pt-2 scroll-m-1 scroll-smooth ">
+        <div className="flex flex-col px-5 py-32 pb-36 pt-2 scroll-m-1 scroll-smooth ">
             <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
                 <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
                     <div className='items-center overflow-hidden'>
@@ -89,7 +88,7 @@ export default function AddPackage() {
                                         <p />
                                         <div className="grid grid-cols-2 gap-4 form-group">
                                             <div className="form-group">
-                                                <label className='block mb-2 text-lg font-medium text-gray-900 dark:text-white'>
+                                                <label className='block mb-2 text-lg font-medium text-gray-900'>
                                                     Supplier Name
                                                 </label>
                                                 <input type="text"
@@ -99,7 +98,7 @@ export default function AddPackage() {
                                                 />
                                             </div>
                                             <div className="form-group">
-                                                <label className='block mb-2 text-lg font-medium text-gray-900 dark:text-white'>
+                                                <label className='block mb-2 text-lg font-medium text-gray-900'>
                                                     Contact Information
                                                 </label>
                                                 <input type="text"
@@ -112,7 +111,7 @@ export default function AddPackage() {
                                         <p />
                                         <div className="grid grid-cols-1 gap-4 form-group">
                                             <div className="form-group">
-                                                <label className='block mb-2 text-lg font-medium text-gray-900 dark:text-white'>
+                                                <label className='block mb-2 text-lg font-medium text-gray-900'>
                                                     Supply Details
                                                 </label>
                                                 <input type="text"
@@ -126,7 +125,7 @@ export default function AddPackage() {
                                         <p /><p />
                                         <div className="grid grid-cols-1 gap-4 form-group">
                                             <div className="form-group">
-                                                <label className='block mb-2 text-lg font-medium text-gray-900 dark:text-white'>
+                                                <label className='block mb-2 text-lg font-medium text-gray-900'>
                                                     Order Quantity
                                                 </label>
                                                 <input type="text" required
@@ -135,7 +134,7 @@ export default function AddPackage() {
                                                 />
                                             </div>
                                             <div class="">
-                                                <label className='block mb-2 text-lg font-medium text-gray-900 dark:text-white' >
+                                                <label className='block mb-2 text-lg font-medium text-gray-900' >
                                                     Order details
                                                 </label>
                                                 <input type="text" required

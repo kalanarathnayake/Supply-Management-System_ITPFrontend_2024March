@@ -1,7 +1,7 @@
 function footer() {
     return (
         <footer class="container max-w-7xl mx-auto px-4 font-body undefined">
-            <div class="fixed mt-7  w-full bg-blue-400 left-0 bottom-0  px-4 py-4 pt-5 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
+            <div class="fixed  w-full bg-blue-400 left-0 bottom-0  px-4 py-1 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
                 <nav class="flex flex-wrap justify-center -mx-5 -my-2">
                     <div class="px-5 py-2">
                         <a href="/" class=" leading-6 text-white no-underline font-bold text-lg font-serif animate-pulse hover:text-gray-900">

@@ -17,6 +17,7 @@ function navbar() {
             </div>
             <div class="hidden md:flex items-center space-x-1 text-center">
               <a href="/supply" className="pb-3 m-2 text-white no-underline duration-300 hover:text-blue-800 hover:font-normal hover:animate-pulse">Supply Dashboard</a>
+              <a href="/product" className="pb-3 m-2 text-white no-underline duration-300 hover:text-blue-800 hover:font-normal hover:animate-pulse">Product Dashboard</a>
             </div>
             <div class="hidden md:flex items-center space-x-1">
               <p href="4" type="button" class="text-white py-3 px-3 ">Sign In Here</p>

@@ -3,9 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar/navbar.component";
 import Footer from "./components/navbar/footer.component"
-import AddPackage from './components/package/add-supply.component';
-import SupplyList from './components/package/supply-list.component';
-import EditPackage from './components/package/package-edit.component';
+import AddPackage from './components/supply/add-supply.component';
+import SupplyList from './components/supply/supply-list.component';
+import EditPackage from './components/supply/supply-edit.component';
 
 function App() {
   return (
